@@ -1,0 +1,18 @@
+B. Test Knowledge RestAPI- Prasyarat:
+ 1. Proses query ke database hanya boleh menggunakan raw, dan tidak menggunakan library pihak ketiga seperti prisma, type-orm, drizzle, dsb.
+ 2. Bahasa pemrograman yang digunakan adalah typescript
+ 3. Implementasikan mekanisme penanganan kesalahan (error handling) pada setiap endpoint yang anda buat.
+ 4. Buat struktur folder ataupun code sebaik mungkin.- Soal Test:
+ 
+    1. Buat endpoint untuk mengelola autentifikasi dengan minimal 2 metode login.
+    2. Buat endpoint yang menyimpan data tertentu, data tersebut memiliki sebuah kode unik dan memiliki running number, buatkan juga penanganan ketika terjadi race condition.
+    3. Buat system desgn untuk point 2.
+    4. Buat endpoint yang mengelola proses integrasi dengan API eksternal.
+    5. Buat contoh backend yang mengelola proses penjadwalan sebuah task secara sederhana.
+    6. Buat endpoint yang menggunakan transaction ketika mengeksekusi lebih dari 2 query.
+    7. Buat endpoint yang mengembalikan sebuah data laporan, contoh kasusnya bisa menggunakan salah satu dari contoh di bawah ini atau contoh kasus yang ditentukan sendiri.
+        a. Customer dengan pembelian terbanyak
+        b. Pembelian produk per kota
+        c. Laporan stock
+        d. Jumlah request user per jam
+        e. Jumlah rata-rata produk yang terjual per bulan
